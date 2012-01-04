@@ -18,13 +18,12 @@ Add to your project's .autotest, or to ~/.autotest
   Autotest::Growl::Remote.remote_password = 'foo' # if needed
 
 == REQUIREMENTS:
-
-* ZenTest 4.0.0 or later
-* Ruby-Growl 3.0 or later
+  ZenTest 4.0.0 or later
+  Ruby-Growl 3.0 or later
 
 == INSTALL:
-* gem sources -a http://gems.github.com
-* gem install korzhyk-autotest-growl-remote
+  gem sources -a http://gems.github.com
+  gem install korzhyk-autotest-growl-remote
 
 == ACTUAL WORK:
 
