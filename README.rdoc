@@ -1,6 +1,6 @@
 = autotest-growl-remote
 
-* http://github.com/kennethkalmer/autotest-growl-remote
+* http://github.com/korzhyk/autotest-growl-remote
 
 == DESCRIPTION:
 
@@ -20,10 +20,11 @@ Add to your project's .autotest, or to ~/.autotest
 == REQUIREMENTS:
 
 * ZenTest 4.0.0 or later
+* Ruby-Growl 3.0 or later
 
 == INSTALL:
-
-* gem install kennethkalmer-autotest-growl-remote
+* gem sources -a http://gems.github.com
+* gem install korzhyk-autotest-growl-remote
 
 == ACTUAL WORK:
 
