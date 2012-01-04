@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'autotest'
-require File.join( File.dirname(__FILE__), 'ruby-growl' )
+require 'ruby-growl'
 require File.join(File.dirname(__FILE__), 'result')
 
 ##
