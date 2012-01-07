@@ -61,7 +61,7 @@ class Autotest
   end
 
   # Display a message through Growl.
-  def self.growl(title, message, icon, priority=0, stick="")
+  def self.growl(title, message, icon, priority=0, stick=false)
     raise "Remote host not configured" if @@remote_host.nil?
 
     g = ::Growl.new( @@remote_host, "autotest", [ "autotest Notification"], nil, @@remote_password )
